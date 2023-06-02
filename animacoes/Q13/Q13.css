@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+  }
+  
+  .circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: pulse 4s infinite;
+  }
+  
+  .quadrado {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: pulse 4s infinite;
+    animation-delay: 2s;
+  }
+  
+  .triangulo {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: pulse 4s infinite;
+    animation-delay: 4s;
+  }
+  

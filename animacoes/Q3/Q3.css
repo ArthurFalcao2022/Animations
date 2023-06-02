@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    animation-name: boxright;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes boxright{
+    0%{
+    transform: translateX(0);
+      }
+    100%{
+    transform: translateX(500px);
+    }
+}

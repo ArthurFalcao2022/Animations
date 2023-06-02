@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: Color 8s linear infinite;
+  }
+  
+  @keyframes Color{
+    0% {
+      transform: rotate(0deg);
+      background-color: red;
+    }
+    25% {
+      transform: rotate(45deg);
+      background-color: blue;
+    }
+    50% {
+      transform: rotate(90deg);
+      background-color: brown;
+    }
+    75% {
+      transform: rotate(135deg);
+      background-color: yellow;
+    }
+    100% {
+      transform: rotate(180deg);
+      background-color: black;
+    }
+  }
+  
